@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 6.0.0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   crs:PresetType="Normal"
+   crs:Cluster=""
+   crs:UUID="A12A17B0C3D5E7F91B2C3D4E5F60A7B8"
+   crs:SupportsAmount2="True"
+   crs:SupportsAmount="True"
+   crs:SupportsColor="True"
+   crs:SupportsMonochrome="False"
+   crs:SupportsHighDynamicRange="True"
+   crs:SupportsNormalDynamicRange="True"
+   crs:SupportsSceneReferred="True"
+   crs:SupportsOutputReferred="True"
+   crs:RequiresRGBTables="False"
+   crs:ShowInPresets="True"
+   crs:ShowInQuickActions="False"
+   crs:CameraModelRestriction=""
+   crs:Copyright=""
+   crs:ContactInfo=""
+   crs:Version="18.5.1"
+   crs:CompatibleVersion="268435456"
+   crs:ProcessVersion="15.4"
+   crs:AutoTone="False"
+   crs:WhiteBalance="As Shot"
+   crs:Contrast2012="-16"
+   crs:Highlights2012="-35"
+   crs:Shadows2012="40"
+   crs:Whites2012="12"
+   crs:Blacks2012="18"
+   crs:Texture="-8"
+   crs:Clarity2012="-14"
+   crs:Dehaze="-6"
+   crs:Vibrance="-4"
+   crs:Saturation="-8"
+   crs:ParametricShadows="0"
+   crs:ParametricDarks="0"
+   crs:ParametricLights="0"
+   crs:ParametricHighlights="0"
+   crs:ParametricShadowSplit="25"
+   crs:ParametricMidtoneSplit="50"
+   crs:ParametricHighlightSplit="75"
+   crs:HueAdjustmentRed="4"
+   crs:HueAdjustmentOrange="6"
+   crs:HueAdjustmentYellow="6"
+   crs:HueAdjustmentGreen="14"
+   crs:HueAdjustmentAqua="0"
+   crs:HueAdjustmentBlue="0"
+   crs:HueAdjustmentPurple="0"
+   crs:HueAdjustmentMagenta="2"
+   crs:SaturationAdjustmentRed="-6"
+   crs:SaturationAdjustmentOrange="-6"
+   crs:SaturationAdjustmentYellow="-12"
+   crs:SaturationAdjustmentGreen="-18"
+   crs:SaturationAdjustmentAqua="-10"
+   crs:SaturationAdjustmentBlue="-12"
+   crs:SaturationAdjustmentPurple="-6"
+   crs:SaturationAdjustmentMagenta="-4"
+   crs:LuminanceAdjustmentRed="8"
+   crs:LuminanceAdjustmentOrange="14"
+   crs:LuminanceAdjustmentYellow="10"
+   crs:LuminanceAdjustmentGreen="10"
+   crs:LuminanceAdjustmentAqua="8"
+   crs:LuminanceAdjustmentBlue="8"
+   crs:LuminanceAdjustmentPurple="0"
+   crs:LuminanceAdjustmentMagenta="0"
+   crs:SplitToningShadowHue="45"
+   crs:SplitToningShadowSaturation="6"
+   crs:SplitToningHighlightHue="50"
+   crs:SplitToningHighlightSaturation="6"
+   crs:SplitToningBalance="0"
+   crs:ColorGradeMidtoneHue="45"
+   crs:ColorGradeMidtoneSat="4"
+   crs:ColorGradeShadowLum="0"
+   crs:ColorGradeMidtoneLum="0"
+   crs:ColorGradeHighlightLum="0"
+   crs:ColorGradeBlending="50"
+   crs:ColorGradeGlobalHue="45"
+   crs:ColorGradeGlobalSat="4"
+   crs:ColorGradeGlobalLum="0"
+   crs:ShadowTint="4"
+   crs:RedHue="4"
+   crs:RedSaturation="-6"
+   crs:GreenHue="-10"
+   crs:GreenSaturation="-12"
+   crs:BlueHue="4"
+   crs:BlueSaturation="-10"
+   crs:GrainAmount="0"
+   crs:GrainSize="25"
+   crs:GrainFrequency="50"
+   crs:PostCropVignetteAmount="0"
+   crs:HDREditMode="0"
+   crs:CurveRefineSaturation="100"
+   crs:ConvertToGrayscale="False"
+   crs:ToneCurveName2012="Custom"
+   crs:HasSettings="True">
+   <crs:ToneCurvePV2012>
+    <rdf:Seq>
+     <rdf:li>0, 26</rdf:li>
+     <rdf:li>40, 52</rdf:li>
+     <rdf:li>128, 132</rdf:li>
+     <rdf:li>200, 214</rdf:li>
+     <rdf:li>255, 246</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012>
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Modern - Light &amp; Airy (Hernan)</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:ShortName>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Light &amp; Airy (no auto)</rdf:li>
+    </rdf:Alt>
+   </crs:ShortName>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Modern Trends - Hernan</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+   <crs:Look>
+    <rdf:Description
+     crs:Name="Adobe Color"
+     crs:Amount="1"
+     crs:UUID="B952C231111CD8E0ECCF14B86BAA7077"
+     crs:SupportsAmount="false"
+     crs:SupportsMonochrome="false"
+     crs:SupportsOutputReferred="false"
+     crs:Copyright="© 2018 Adobe Systems, Inc."
+     crs:Stubbed="true">
+    <crs:Group>
+     <rdf:Alt>
+      <rdf:li xml:lang="x-default">Profiles</rdf:li>
+     </rdf:Alt>
+    </crs:Group>
+    </rdf:Description>
+   </crs:Look>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

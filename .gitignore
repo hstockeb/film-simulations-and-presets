@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Google Drive
+*.gdoc
+*.gsheet
+*.gslides
+
+# Editor / temp
+*~
+*.tmp
+Thumbs.db
+
+# Not published: research write-ups and third-party reference packs are kept
+# on-disk only, never committed
+docs/
+reference/
+
+# Source RAWs for building render sets — large, and not part of the presets
+raw/
+
+# Local tooling: validation and the render pipeline. Kept on-disk only.
+scripts/

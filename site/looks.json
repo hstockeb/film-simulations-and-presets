@@ -1,0 +1,618 @@
+{
+ "original": "samples/DSC04687_original.jpg",
+ "count": 79,
+ "summary": "50 film & camera simulations · 29 presets",
+ "kinds": [
+  {
+   "id": "sims",
+   "name": "Film & camera simulations"
+  },
+  {
+   "id": "presets",
+   "name": "Presets"
+  }
+ ],
+ "families": [
+  {
+   "name": "Fuji",
+   "blurb": "camera film simulations + the film stocks they were named after",
+   "slug": "fuji",
+   "kind": "sims",
+   "looks": [
+    {
+     "name": "Fuji 400H",
+     "mono": false,
+     "image": "samples/fuji/Fuji%20-%20400H.jpg",
+     "thumb": "samples/thumbs/fuji/Fuji%20-%20400H.jpg",
+     "preset": "presets/Fuji/Color/Fuji%20-%20400H.xmp"
+    },
+    {
+     "name": "Fuji Classic Chrome (2026)",
+     "mono": false,
+     "image": "samples/fuji/Fuji%20-%20Classic_Chrome_2026.jpg",
+     "thumb": "samples/thumbs/fuji/Fuji%20-%20Classic_Chrome_2026.jpg",
+     "preset": "presets/Fuji/Color/Fuji%20-%20Classic_Chrome_2026.xmp"
+    },
+    {
+     "name": "Fujifilm Acros",
+     "mono": true,
+     "image": "samples/fuji/Fujifilm%20-%20Acros.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Acros.jpg",
+     "preset": "presets/Fuji/Monochrome/Fujifilm%20-%20Acros.xmp"
+    },
+    {
+     "name": "Fujifilm Astia",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20Astia.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Astia.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Astia.xmp"
+    },
+    {
+     "name": "Fujifilm Bleach Bypass",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20Bleach_Bypass.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Bleach_Bypass.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Bleach_Bypass.xmp"
+    },
+    {
+     "name": "Fujifilm Classic Chrome",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20Classic_Chrome.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Classic_Chrome.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Classic_Chrome.xmp"
+    },
+    {
+     "name": "Fujifilm Classic Neg",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20Classic_Neg.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Classic_Neg.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Classic_Neg.xmp"
+    },
+    {
+     "name": "Fujifilm Eterna (no auto)",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20Eterna%20%28no%20auto%29.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Eterna%20%28no%20auto%29.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Eterna%20%28no%20auto%29.xmp"
+    },
+    {
+     "name": "Fujifilm Monochrome",
+     "mono": true,
+     "image": "samples/fuji/Fujifilm%20-%20Monochrome.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Monochrome.jpg",
+     "preset": "presets/Fuji/Monochrome/Fujifilm%20-%20Monochrome.xmp"
+    },
+    {
+     "name": "Fujifilm Nostalgic Neg (no auto)",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20Nostalgic_Neg%20%28no%20auto%29.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Nostalgic_Neg%20%28no%20auto%29.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Nostalgic_Neg%20%28no%20auto%29.xmp"
+    },
+    {
+     "name": "Fujifilm PRO Neg Hi",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20PRO_Neg_Hi.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20PRO_Neg_Hi.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20PRO_Neg_Hi.xmp"
+    },
+    {
+     "name": "Fujifilm PRO Neg Std",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20PRO_Neg_Std.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20PRO_Neg_Std.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20PRO_Neg_Std.xmp"
+    },
+    {
+     "name": "Fujifilm Provia",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20Provia.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Provia.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Provia.xmp"
+    },
+    {
+     "name": "Fujifilm Reala Ace",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20Reala_Ace.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Reala_Ace.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Reala_Ace.xmp"
+    },
+    {
+     "name": "Fujifilm Sepia",
+     "mono": true,
+     "image": "samples/fuji/Fujifilm%20-%20Sepia.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Sepia.jpg",
+     "preset": "presets/Fuji/Monochrome/Fujifilm%20-%20Sepia.xmp"
+    },
+    {
+     "name": "Fujifilm Velvia",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20Velvia.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Velvia.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Velvia.xmp"
+    },
+    {
+     "name": "Provia 100F",
+     "mono": false,
+     "image": "samples/fuji/Fuji%20-%20Provia_100F.jpg",
+     "thumb": "samples/thumbs/fuji/Fuji%20-%20Provia_100F.jpg",
+     "preset": "presets/Fuji/Color/Fuji%20-%20Provia_100F.xmp"
+    },
+    {
+     "name": "Velvia 50",
+     "mono": false,
+     "image": "samples/fuji/Fuji%20-%20Velvia_50.jpg",
+     "thumb": "samples/thumbs/fuji/Fuji%20-%20Velvia_50.jpg",
+     "preset": "presets/Fuji/Color/Fuji%20-%20Velvia_50.xmp"
+    }
+   ]
+  },
+  {
+   "name": "Kodak",
+   "blurb": "negative, slide and cine emulsions",
+   "slug": "kodak",
+   "kind": "sims",
+   "looks": [
+    {
+     "name": "CineStill 800T",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20CineStill_800T.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20CineStill_800T.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20CineStill_800T.xmp"
+    },
+    {
+     "name": "Kodachrome 64",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20Kodachrome_64.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20Kodachrome_64.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20Kodachrome_64.xmp"
+    },
+    {
+     "name": "Kodak ColorPlus 200",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20ColorPlus_200.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20ColorPlus_200.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20ColorPlus_200.xmp"
+    },
+    {
+     "name": "Kodak Ektachrome E100",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20Ektachrome_E100.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20Ektachrome_E100.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20Ektachrome_E100.xmp"
+    },
+    {
+     "name": "Kodak Ektar 100",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20Ektar_100.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20Ektar_100.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20Ektar_100.xmp"
+    },
+    {
+     "name": "Kodak Gold 200",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20Gold_200.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20Gold_200.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20Gold_200.xmp"
+    },
+    {
+     "name": "Kodak Portra 160",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20Portra_160.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20Portra_160.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20Portra_160.xmp"
+    },
+    {
+     "name": "Kodak Portra 400",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20Portra_400.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20Portra_400.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20Portra_400.xmp"
+    },
+    {
+     "name": "Kodak Portra 800",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20Portra_800.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20Portra_800.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20Portra_800.xmp"
+    },
+    {
+     "name": "Kodak T-Max 400",
+     "mono": true,
+     "image": "samples/kodak/Kodak%20-%20T-Max_400.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20T-Max_400.jpg",
+     "preset": "presets/Kodak/Monochrome/Kodak%20-%20T-Max_400.xmp"
+    },
+    {
+     "name": "Kodak Tri-X 400",
+     "mono": true,
+     "image": "samples/kodak/Kodak%20-%20Tri-X_400.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20Tri-X_400.jpg",
+     "preset": "presets/Kodak/Monochrome/Kodak%20-%20Tri-X_400.xmp"
+    },
+    {
+     "name": "Kodak UltraMax 400",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20UltraMax_400.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20UltraMax_400.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20UltraMax_400.xmp"
+    },
+    {
+     "name": "Kodak Vision3 250D",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20Vision3_250D.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20Vision3_250D.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20Vision3_250D.xmp"
+    },
+    {
+     "name": "Kodak Vision3 500T",
+     "mono": false,
+     "image": "samples/kodak/Kodak%20-%20Vision3_500T.jpg",
+     "thumb": "samples/thumbs/kodak/Kodak%20-%20Vision3_500T.jpg",
+     "preset": "presets/Kodak/Color/Kodak%20-%20Vision3_500T.xmp"
+    }
+   ]
+  },
+  {
+   "name": "Landscape",
+   "blurb": "land-first colour — green as a subject, not a distraction",
+   "slug": "landscape",
+   "kind": "presets",
+   "looks": [
+    {
+     "name": "Alpenglow",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Alpenglow.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Alpenglow.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Alpenglow.xmp"
+    },
+    {
+     "name": "Andean Autumn",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Andean_Autumn.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Andean_Autumn.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Andean_Autumn.xmp"
+    },
+    {
+     "name": "Andes High Country",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Andes_High_Country.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Andes_High_Country.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Andes_High_Country.xmp"
+    },
+    {
+     "name": "Coast / Long Exposure (no auto)",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Coast_Long_Exposure%20%28no%20auto%29.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Coast_Long_Exposure%20%28no%20auto%29.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Coast_Long_Exposure%20%28no%20auto%29.xmp"
+    },
+    {
+     "name": "Coastal Fog (no auto)",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Coastal_Fog%20%28no%20auto%29.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Coastal_Fog%20%28no%20auto%29.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Coastal_Fog%20%28no%20auto%29.xmp"
+    },
+    {
+     "name": "Death Valley",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Death_Valley.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Death_Valley.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Death_Valley.xmp"
+    },
+    {
+     "name": "Golden Hills",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Golden_Hills.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Golden_Hills.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Golden_Hills.xmp"
+    },
+    {
+     "name": "Grand Canyon Haze",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Grand_Canyon_Haze.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Grand_Canyon_Haze.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Grand_Canyon_Haze.xmp"
+    },
+    {
+     "name": "High Desert",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20High_Desert.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20High_Desert.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20High_Desert.xmp"
+    },
+    {
+     "name": "Ilford HP5 Plus",
+     "mono": true,
+     "image": "samples/landscape/Landscape%20-%20Ilford_HP5.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Ilford_HP5.jpg",
+     "preset": "presets/Landscape/Monochrome/Landscape%20-%20Ilford_HP5.xmp"
+    },
+    {
+     "name": "Orange Filter",
+     "mono": true,
+     "image": "samples/landscape/Landscape%20-%20Orange_Filter.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Orange_Filter.jpg",
+     "preset": "presets/Landscape/Monochrome/Landscape%20-%20Orange_Filter.xmp"
+    },
+    {
+     "name": "Red Filter",
+     "mono": true,
+     "image": "samples/landscape/Landscape%20-%20Red_Filter.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Red_Filter.jpg",
+     "preset": "presets/Landscape/Monochrome/Landscape%20-%20Red_Filter.xmp"
+    },
+    {
+     "name": "Sedona Red Rock",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Sedona_Red_Rock.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Sedona_Red_Rock.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Sedona_Red_Rock.xmp"
+    },
+    {
+     "name": "Slot Canyon",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Slot_Canyon.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Slot_Canyon.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Slot_Canyon.xmp"
+    },
+    {
+     "name": "Sonoran Desert",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Sonoran_Desert.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Sonoran_Desert.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Sonoran_Desert.xmp"
+    },
+    {
+     "name": "Storm Sky",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Storm_Sky.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Storm_Sky.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Storm_Sky.xmp"
+    },
+    {
+     "name": "Valdivian Rainforest",
+     "mono": false,
+     "image": "samples/landscape/Landscape%20-%20Valdivian_Rainforest.jpg",
+     "thumb": "samples/thumbs/landscape/Landscape%20-%20Valdivian_Rainforest.jpg",
+     "preset": "presets/Landscape/Color/Landscape%20-%20Valdivian_Rainforest.xmp"
+    }
+   ]
+  },
+  {
+   "name": "Leica",
+   "blurb": "the aesthetic direction of Leica's in-camera Looks",
+   "slug": "leica",
+   "kind": "sims",
+   "looks": [
+    {
+     "name": "Leica Bleach",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Bleach.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Bleach.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Bleach.xmp"
+    },
+    {
+     "name": "Leica Blue",
+     "mono": true,
+     "image": "samples/leica/Leica-style%20-%20Blue.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Blue.jpg",
+     "preset": "presets/Leica/Monochrome/Leica-style%20-%20Blue.xmp"
+    },
+    {
+     "name": "Leica Brass",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Brass.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Brass.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Brass.xmp"
+    },
+    {
+     "name": "Leica Chrome",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Chrome.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Chrome.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Chrome.xmp"
+    },
+    {
+     "name": "Leica Classic",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Classic.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Classic.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Classic.xmp"
+    },
+    {
+     "name": "Leica Contemporary",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Contemporary.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Contemporary.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Contemporary.xmp"
+    },
+    {
+     "name": "Leica Eternal",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Eternal.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Eternal.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Eternal.xmp"
+    },
+    {
+     "name": "Leica Greg Williams",
+     "mono": true,
+     "image": "samples/leica/Leica-style%20-%20Greg%20Williams.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Greg%20Williams.jpg",
+     "preset": "presets/Leica/Monochrome/Leica-style%20-%20Greg%20Williams.xmp"
+    },
+    {
+     "name": "Leica Look",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Look.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Look.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Look.xmp"
+    },
+    {
+     "name": "Leica Monochrom High Contrast",
+     "mono": true,
+     "image": "samples/leica/Leica-style%20-%20Monochrom%20High%20Contrast.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Monochrom%20High%20Contrast.jpg",
+     "preset": "presets/Leica/Monochrome/Leica-style%20-%20Monochrom%20High%20Contrast.xmp"
+    },
+    {
+     "name": "Leica Monochrom Natural",
+     "mono": true,
+     "image": "samples/leica/Leica-style%20-%20Monochrom%20Natural.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Monochrom%20Natural.jpg",
+     "preset": "presets/Leica/Monochrome/Leica-style%20-%20Monochrom%20Natural.xmp"
+    },
+    {
+     "name": "Leica Natural",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Natural.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Natural.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Natural.xmp"
+    },
+    {
+     "name": "Leica Selenium",
+     "mono": true,
+     "image": "samples/leica/Leica-style%20-%20Selenium.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Selenium.jpg",
+     "preset": "presets/Leica/Monochrome/Leica-style%20-%20Selenium.xmp"
+    },
+    {
+     "name": "Leica Sepia",
+     "mono": true,
+     "image": "samples/leica/Leica-style%20-%20Sepia.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Sepia.jpg",
+     "preset": "presets/Leica/Monochrome/Leica-style%20-%20Sepia.xmp"
+    },
+    {
+     "name": "Leica Silver",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Silver.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Silver.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Silver.xmp"
+    },
+    {
+     "name": "Leica Standard",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Standard.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Standard.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Standard.xmp"
+    },
+    {
+     "name": "Leica Teal",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Teal.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Teal.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Teal.xmp"
+    },
+    {
+     "name": "Leica Vivid",
+     "mono": false,
+     "image": "samples/leica/Leica-style%20-%20Vivid.jpg",
+     "thumb": "samples/thumbs/leica/Leica-style%20-%20Vivid.jpg",
+     "preset": "presets/Leica/Color/Leica-style%20-%20Vivid.xmp"
+    }
+   ]
+  },
+  {
+   "name": "Modern Trends",
+   "blurb": "current editorial and social looks",
+   "slug": "modern",
+   "kind": "presets",
+   "looks": [
+    {
+     "name": "Clean & Bright Commercial",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Clean_Bright_Commercial.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Clean_Bright_Commercial.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Clean_Bright_Commercial.xmp"
+    },
+    {
+     "name": "Fall Editorial",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Fall_Editorial.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Fall_Editorial.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Fall_Editorial.xmp"
+    },
+    {
+     "name": "Golden Hour Family",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Golden_Hour_Family.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Golden_Hour_Family.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Golden_Hour_Family.xmp"
+    },
+    {
+     "name": "Light & Airy (no auto)",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Light_and_Airy%20%28no%20auto%29.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Light_and_Airy%20%28no%20auto%29.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Light_and_Airy%20%28no%20auto%29.xmp"
+    },
+    {
+     "name": "Moody Dark & Matte (no auto)",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Moody_Dark_Matte%20%28no%20auto%29.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Moody_Dark_Matte%20%28no%20auto%29.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Moody_Dark_Matte%20%28no%20auto%29.xmp"
+    },
+    {
+     "name": "Palm Springs",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Palm_Springs.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Palm_Springs.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Palm_Springs.xmp"
+    },
+    {
+     "name": "Pastel Beach / Summer",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Pastel_Beach_Summer.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Pastel_Beach_Summer.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Pastel_Beach_Summer.xmp"
+    },
+    {
+     "name": "Snow / Winter",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Snow_Winter.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Snow_Winter.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Snow_Winter.xmp"
+    },
+    {
+     "name": "Snow / Winter — Moody",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Snow_Winter_Moody.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Snow_Winter_Moody.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Snow_Winter_Moody.xmp"
+    },
+    {
+     "name": "Warm & Earthy Boho (no auto)",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Warm_Earthy_Boho%20%28no%20auto%29.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Warm_Earthy_Boho%20%28no%20auto%29.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Warm_Earthy_Boho%20%28no%20auto%29.xmp"
+    }
+   ]
+  },
+  {
+   "name": "Personal",
+   "blurb": "hand-built from single trips — not camera-agnostic",
+   "slug": "personal",
+   "kind": "presets",
+   "looks": [
+    {
+     "name": "Pucon_2025",
+     "mono": false,
+     "image": "samples/personal/Pucon_2025.jpg",
+     "thumb": "samples/thumbs/personal/Pucon_2025.jpg",
+     "preset": "presets/Personal/Pucon_2025.xmp"
+    },
+    {
+     "name": "Vicuna_2026",
+     "mono": false,
+     "image": "samples/personal/Vicuna_2026.jpg",
+     "thumb": "samples/thumbs/personal/Vicuna_2026.jpg",
+     "preset": "presets/Personal/Vicuna_2026.xmp"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 6.0.0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   crs:PresetType="Normal"
+   crs:Cluster=""
+   crs:UUID="36F6122D4D904FDA81E7B99840D06478"
+   crs:SupportsAmount2="True"
+   crs:SupportsAmount="True"
+   crs:SupportsColor="True"
+   crs:SupportsMonochrome="False"
+   crs:SupportsHighDynamicRange="True"
+   crs:SupportsNormalDynamicRange="True"
+   crs:SupportsSceneReferred="True"
+   crs:SupportsOutputReferred="True"
+   crs:RequiresRGBTables="False"
+   crs:ShowInPresets="True"
+   crs:ShowInQuickActions="False"
+   crs:CameraModelRestriction=""
+   crs:Copyright=""
+   crs:ContactInfo=""
+   crs:Version="18.5.1"
+   crs:CompatibleVersion="268435456"
+   crs:ProcessVersion="15.4"
+   crs:AutoTone="True"
+   crs:AutoWhiteVersion="134348800"
+   crs:WhiteBalance="As Shot"
+   crs:Contrast2012="-4"
+   crs:Highlights2012="-30"
+   crs:Shadows2012="20"
+   crs:Whites2012="-10"
+   crs:Blacks2012="6"
+   crs:Texture="-4"
+   crs:Clarity2012="-6"
+   crs:Dehaze="-4"
+   crs:Vibrance="6"
+   crs:Saturation="2"
+   crs:ParametricShadows="0"
+   crs:ParametricDarks="0"
+   crs:ParametricLights="0"
+   crs:ParametricHighlights="0"
+   crs:ParametricShadowSplit="25"
+   crs:ParametricMidtoneSplit="50"
+   crs:ParametricHighlightSplit="75"
+   crs:HueAdjustmentRed="6"
+   crs:HueAdjustmentOrange="2"
+   crs:HueAdjustmentYellow="-6"
+   crs:HueAdjustmentGreen="30"
+   crs:HueAdjustmentAqua="20"
+   crs:HueAdjustmentBlue="-6"
+   crs:HueAdjustmentPurple="0"
+   crs:HueAdjustmentMagenta="-4"
+   crs:SaturationAdjustmentRed="12"
+   crs:SaturationAdjustmentOrange="-4"
+   crs:SaturationAdjustmentYellow="-10"
+   crs:SaturationAdjustmentGreen="-20"
+   crs:SaturationAdjustmentAqua="6"
+   crs:SaturationAdjustmentBlue="8"
+   crs:SaturationAdjustmentPurple="-6"
+   crs:SaturationAdjustmentMagenta="-6"
+   crs:LuminanceAdjustmentRed="-4"
+   crs:LuminanceAdjustmentOrange="0"
+   crs:LuminanceAdjustmentYellow="-4"
+   crs:LuminanceAdjustmentGreen="-8"
+   crs:LuminanceAdjustmentAqua="-6"
+   crs:LuminanceAdjustmentBlue="-10"
+   crs:LuminanceAdjustmentPurple="0"
+   crs:LuminanceAdjustmentMagenta="0"
+   crs:SplitToningShadowHue="195"
+   crs:SplitToningShadowSaturation="18"
+   crs:SplitToningHighlightHue="20"
+   crs:SplitToningHighlightSaturation="20"
+   crs:SplitToningBalance="-10"
+   crs:ColorGradeMidtoneHue="200"
+   crs:ColorGradeMidtoneSat="6"
+   crs:ColorGradeShadowLum="0"
+   crs:ColorGradeMidtoneLum="0"
+   crs:ColorGradeHighlightLum="0"
+   crs:ColorGradeBlending="50"
+   crs:ColorGradeGlobalHue="15"
+   crs:ColorGradeGlobalSat="5"
+   crs:ColorGradeGlobalLum="0"
+   crs:ShadowTint="-6"
+   crs:RedHue="8"
+   crs:RedSaturation="14"
+   crs:GreenHue="-20"
+   crs:GreenSaturation="-6"
+   crs:BlueHue="6"
+   crs:BlueSaturation="10"
+   crs:GrainAmount="28"
+   crs:GrainSize="30"
+   crs:GrainFrequency="45"
+   crs:PostCropVignetteAmount="-6"
+   crs:PostCropVignetteMidpoint="50"
+   crs:PostCropVignetteFeather="50"
+   crs:PostCropVignetteRoundness="0"
+   crs:PostCropVignetteStyle="1"
+   crs:HDREditMode="0"
+   crs:CurveRefineSaturation="100"
+   crs:ConvertToGrayscale="False"
+   crs:ToneCurveName2012="Custom"
+   crs:HasSettings="True">
+   <crs:ToneCurvePV2012>
+    <rdf:Seq>
+     <rdf:li>0, 12</rdf:li>
+     <rdf:li>32, 30</rdf:li>
+     <rdf:li>64, 60</rdf:li>
+     <rdf:li>128, 128</rdf:li>
+     <rdf:li>192, 196</rdf:li>
+     <rdf:li>255, 248</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012>
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Kodak - CineStill 800T (Hernan)</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:ShortName>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">CineStill 800T</rdf:li>
+    </rdf:Alt>
+   </crs:ShortName>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Kodak - Hernan</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+   <crs:Look>
+    <rdf:Description
+     crs:Name="Adobe Color"
+     crs:Amount="1"
+     crs:UUID="B952C231111CD8E0ECCF14B86BAA7077"
+     crs:SupportsAmount="false"
+     crs:SupportsMonochrome="false"
+     crs:SupportsOutputReferred="false"
+     crs:Copyright="© 2018 Adobe Systems, Inc."
+     crs:Stubbed="true">
+    <crs:Group>
+     <rdf:Alt>
+      <rdf:li xml:lang="x-default">Profiles</rdf:li>
+     </rdf:Alt>
+    </crs:Group>
+    </rdf:Description>
+   </crs:Look>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

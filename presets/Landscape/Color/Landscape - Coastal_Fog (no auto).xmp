@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="XMP Core 6.0.0">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   crs:PresetType="Normal"
+   crs:Cluster=""
+   crs:UUID="8F849A0A5DD84FF8A093B25E3EEF09F5"
+   crs:SupportsAmount2="True"
+   crs:SupportsAmount="True"
+   crs:SupportsColor="True"
+   crs:SupportsMonochrome="False"
+   crs:SupportsHighDynamicRange="True"
+   crs:SupportsNormalDynamicRange="True"
+   crs:SupportsSceneReferred="True"
+   crs:SupportsOutputReferred="True"
+   crs:RequiresRGBTables="False"
+   crs:ShowInPresets="True"
+   crs:ShowInQuickActions="False"
+   crs:CameraModelRestriction=""
+   crs:Copyright=""
+   crs:ContactInfo=""
+   crs:Version="18.5.1"
+   crs:CompatibleVersion="268435456"
+   crs:ProcessVersion="15.4"
+   crs:AutoTone="False"
+   crs:WhiteBalance="As Shot"
+   crs:Contrast2012="-14"
+   crs:Highlights2012="-20"
+   crs:Shadows2012="18"
+   crs:Whites2012="-10"
+   crs:Blacks2012="14"
+   crs:Texture="-6"
+   crs:Clarity2012="-12"
+   crs:Dehaze="-8"
+   crs:Vibrance="-6"
+   crs:Saturation="-14"
+   crs:ParametricShadows="0"
+   crs:ParametricDarks="0"
+   crs:ParametricLights="0"
+   crs:ParametricHighlights="0"
+   crs:ParametricShadowSplit="25"
+   crs:ParametricMidtoneSplit="50"
+   crs:ParametricHighlightSplit="75"
+   crs:HueAdjustmentRed="0"
+   crs:HueAdjustmentOrange="0"
+   crs:HueAdjustmentYellow="-6"
+   crs:HueAdjustmentGreen="6"
+   crs:HueAdjustmentAqua="-8"
+   crs:HueAdjustmentBlue="-4"
+   crs:HueAdjustmentPurple="0"
+   crs:HueAdjustmentMagenta="0"
+   crs:SaturationAdjustmentRed="-6"
+   crs:SaturationAdjustmentOrange="-12"
+   crs:SaturationAdjustmentYellow="-16"
+   crs:SaturationAdjustmentGreen="-10"
+   crs:SaturationAdjustmentAqua="4"
+   crs:SaturationAdjustmentBlue="4"
+   crs:SaturationAdjustmentPurple="0"
+   crs:SaturationAdjustmentMagenta="0"
+   crs:LuminanceAdjustmentRed="0"
+   crs:LuminanceAdjustmentOrange="6"
+   crs:LuminanceAdjustmentYellow="6"
+   crs:LuminanceAdjustmentGreen="6"
+   crs:LuminanceAdjustmentAqua="0"
+   crs:LuminanceAdjustmentBlue="6"
+   crs:LuminanceAdjustmentPurple="0"
+   crs:LuminanceAdjustmentMagenta="0"
+   crs:SplitToningShadowHue="205"
+   crs:SplitToningShadowSaturation="10"
+   crs:SplitToningHighlightHue="200"
+   crs:SplitToningHighlightSaturation="8"
+   crs:SplitToningBalance="-6"
+   crs:ColorGradeMidtoneHue="202"
+   crs:ColorGradeMidtoneSat="8"
+   crs:ColorGradeShadowLum="3"
+   crs:ColorGradeMidtoneLum="2"
+   crs:ColorGradeHighlightLum="0"
+   crs:ColorGradeBlending="50"
+   crs:ColorGradeGlobalHue="200"
+   crs:ColorGradeGlobalSat="5"
+   crs:ColorGradeGlobalLum="2"
+   crs:ShadowTint="3"
+   crs:RedHue="0"
+   crs:RedSaturation="0"
+   crs:GreenHue="0"
+   crs:GreenSaturation="0"
+   crs:BlueHue="-3"
+   crs:BlueSaturation="6"
+   crs:GrainAmount="10"
+   crs:GrainSize="26"
+   crs:GrainFrequency="50"
+   crs:PostCropVignetteAmount="-4"
+   crs:PostCropVignetteMidpoint="50"
+   crs:PostCropVignetteFeather="50"
+   crs:PostCropVignetteRoundness="0"
+   crs:PostCropVignetteStyle="1"
+   crs:HDREditMode="0"
+   crs:CurveRefineSaturation="100"
+   crs:ConvertToGrayscale="False"
+   crs:ToneCurveName2012="Custom"
+   crs:HasSettings="True">
+   <crs:ToneCurvePV2012>
+    <rdf:Seq>
+     <rdf:li>0, 14</rdf:li>
+     <rdf:li>64, 66</rdf:li>
+     <rdf:li>128, 126</rdf:li>
+     <rdf:li>192, 186</rdf:li>
+     <rdf:li>255, 240</rdf:li>
+    </rdf:Seq>
+   </crs:ToneCurvePV2012>
+   <crs:Name>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Landscape - Coastal Fog (Hernan)</rdf:li>
+    </rdf:Alt>
+   </crs:Name>
+   <crs:ShortName>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Coastal Fog (no auto)</rdf:li>
+    </rdf:Alt>
+   </crs:ShortName>
+   <crs:Group>
+    <rdf:Alt>
+     <rdf:li xml:lang="x-default">Landscape - Hernan</rdf:li>
+    </rdf:Alt>
+   </crs:Group>
+   <crs:Look>
+    <rdf:Description
+     crs:Name="Adobe Color"
+     crs:Amount="1"
+     crs:UUID="B952C231111CD8E0ECCF14B86BAA7077"
+     crs:SupportsAmount="false"
+     crs:SupportsMonochrome="false"
+     crs:SupportsOutputReferred="false"
+     crs:Copyright="© 2018 Adobe Systems, Inc."
+     crs:Stubbed="true">
+    <crs:Group>
+     <rdf:Alt>
+      <rdf:li xml:lang="x-default">Profiles</rdf:li>
+     </rdf:Alt>
+    </crs:Group>
+    </rdf:Description>
+   </crs:Look>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>
