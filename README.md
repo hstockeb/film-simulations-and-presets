@@ -13,7 +13,10 @@ changes between them is only the look.</sub>
 </p>
 
 <p align="center">
-<a href="https://hstockeb.github.io/film-simulations-and-presets/"><b>▶&nbsp;Try every look on one photo</b></a>
+<b>Try every look on one photo:</b>
+<a href="https://hstockeb.github.io/film-simulations-and-presets/simulations/"><b>▶&nbsp;Film&nbsp;simulations</b></a>
+&nbsp;·&nbsp;
+<a href="https://hstockeb.github.io/film-simulations-and-presets/presets/"><b>▶&nbsp;Presets</b></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="https://github.com/hstockeb/film-simulations-and-presets/releases/latest"><b>⬇&nbsp;Download all 79 (.zip)</b></a>
 </p>

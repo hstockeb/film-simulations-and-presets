@@ -3,293 +3,61 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Film Simulations & Presets</title>
-<meta name="description" content="Lightroom film & camera simulations and presets — drag across one photograph to see every look. Free, CC BY 4.0, for RAW from any camera.">
+<title>Film Simulations & Presets for Lightroom</title>
+<meta name="description" content="50 film & camera simulations · 29 presets for Lightroom, for RAW from any camera. Free, CC BY 4.0.">
 <meta property="og:title" content="Film Simulations & Presets for Lightroom">
-<meta property="og:description" content="Drag across one photograph to see every look. Free, for RAW from any camera.">
+<meta property="og:description" content="50 film & camera simulations · 29 presets for Lightroom, for RAW from any camera. Free, CC BY 4.0.">
 <meta property="og:image" content="https://hstockeb.github.io/film-simulations-and-presets/samples/social-preview.png">
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --base: #12100e;
-    --panel: #1b1916;
-    --line: #2e2a25;
-    --ink: #ece6da;
-    --muted: #9a9286;
-    --edge: #e8963a;           /* the orange of a film edge print */
-    --edge-dim: #e8963a33;
-    --radius: 6px;
-  }
-  * { box-sizing: border-box; }
-  html { -webkit-text-size-adjust: 100%; }
-  body {
-    margin: 0; background: var(--base); color: var(--ink);
-    font: 15px/1.5 Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
-  }
-  a { color: inherit; }
-  .edge { font-family: "Barlow Condensed", "DIN Condensed", sans-serif; letter-spacing: .06em; text-transform: uppercase; }
-
-  header {
-    display: flex; flex-wrap: wrap; align-items: end; justify-content: space-between;
-    gap: 16px; padding: 28px 32px 20px; border-bottom: 1px solid var(--line);
-  }
-  h1 { margin: 0; font-size: 26px; font-weight: 600; letter-spacing: -.01em; }
-  header p { margin: 4px 0 0; color: var(--muted); }
-  .actions { display: flex; gap: 10px; flex-wrap: wrap; }
-  .btn {
-    display: inline-flex; align-items: center; gap: 8px; padding: 9px 14px;
-    border: 1px solid var(--line); border-radius: var(--radius); text-decoration: none;
-    font-weight: 500; font-size: 14px; background: var(--panel); white-space: nowrap;
-  }
-  .btn:hover { border-color: var(--muted); }
-  .btn.primary { background: var(--edge); border-color: var(--edge); color: #1a1208; }
-  .btn.primary:hover { filter: brightness(1.08); }
-
-  main {
-    display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 28px;
-    padding: 24px 32px 48px; max-width: 1600px; margin: 0 auto;
-  }
-  .stage { position: sticky; top: 16px; align-self: start; }
-
-  /* before/after: the look sits on top, clipped to the right of the handle */
-  .compare {
-    position: relative; aspect-ratio: 3 / 2; border-radius: var(--radius); overflow: hidden;
-    background: #000; touch-action: pan-y; user-select: none; cursor: ew-resize;
-    /* keep the caption and download button in view on short screens */
-    width: min(100%, calc((100vh - 250px) * 1.5)); margin: 0 auto;
-  }
-  .compare img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; pointer-events: none; }
-  .compare .after { clip-path: inset(0 0 0 var(--pos, 50%)); }
-  .handle {
-    position: absolute; top: 0; bottom: 0; left: var(--pos, 50%); width: 2px; margin-left: -1px;
-    background: #fff; box-shadow: 0 0 0 1px #0004;
-  }
-  .handle::after {
-    content: "‹ ›"; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
-    width: 40px; height: 40px; border-radius: 50%; background: #fff; color: #111;
-    display: grid; place-items: center; font: 600 18px/1 Inter, sans-serif; letter-spacing: 2px;
-    box-shadow: 0 2px 10px #0006;
-  }
-  .compare:focus-visible { outline: 2px solid var(--edge); outline-offset: 3px; }
-  .tag {
-    position: absolute; top: 12px; padding: 3px 8px; border-radius: 4px;
-    background: #000a; color: #fff; font-size: 15px; pointer-events: none;
-  }
-  .tag.left { left: 12px; }
-  .tag.right { right: 12px; }
-
-  .caption, .hint { width: min(100%, calc((100vh - 250px) * 1.5)); margin-left: auto; margin-right: auto; }
-  .caption {
-    display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
-    gap: 12px; margin-top: 14px;
-  }
-  .caption h2 { margin: 0; font-size: 22px; font-weight: 600; }
-  .caption .meta { color: var(--muted); font-size: 14px; }
-  .caption .edge { color: var(--edge); font-size: 15px; }
-  .hint { color: var(--muted); font-size: 13px; margin-top: 10px; }
-  kbd { font: 12px ui-monospace, monospace; border: 1px solid var(--line); border-radius: 3px; padding: 0 4px; }
-
-  aside { min-width: 0; }
-  .kind { margin-bottom: 26px; }
-  .kind > h3 { margin: 0 0 2px; font-size: 13px; color: var(--edge); font-weight: 600; }
-  .kind > p { margin: 0 0 12px; color: var(--muted); font-size: 13px; }
-  .family { margin-bottom: 18px; }
-  .family h4 {
-    display: flex; justify-content: space-between; align-items: baseline;
-    margin: 0 0 8px; font-size: 15px; font-weight: 600;
-  }
-  .family h4 a { font-size: 12px; font-weight: 500; color: var(--muted); text-decoration: none; }
-  .family h4 a:hover { color: var(--ink); }
-  .grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
-  .look {
-    all: unset; cursor: pointer; display: block; min-width: 0; border-radius: 4px;
-  }
-  .look img {
-    display: block; width: 100%; aspect-ratio: 3 / 2; object-fit: cover; border-radius: 4px;
-    outline: 2px solid transparent; outline-offset: 1px; transition: outline-color .12s;
-  }
-  .look span {
-    display: block; margin-top: 4px; font-size: 12px; color: var(--muted);
-    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
-  }
-  .look:hover img { outline-color: var(--muted); }
-  .look:focus-visible img { outline-color: var(--ink); }
-  .look[aria-current="true"] img { outline-color: var(--edge); }
-  .look[aria-current="true"] span { color: var(--ink); }
-
-  footer { border-top: 1px solid var(--line); padding: 20px 32px 32px; color: var(--muted); font-size: 13px; }
-  footer a { color: var(--ink); }
-
-  @media (max-width: 980px) {
-    main { grid-template-columns: 1fr; }
-    .stage { position: sticky; top: 0; z-index: 2; background: var(--base); padding-top: 8px; margin-top: -8px; }
-    .hint { display: none; }
-    .compare, .caption { width: 100%; }
-    .grid { grid-template-columns: repeat(4, 1fr); }
-  }
-  @media (max-width: 600px) {
-    header, main, footer { padding-left: 16px; padding-right: 16px; }
-    header { padding-top: 20px; }
-    h1 { font-size: 22px; }
-    .grid { grid-template-columns: repeat(3, 1fr); }
-    .caption h2 { font-size: 18px; }
-    .caption { margin-top: 10px; }
-    .caption .btn { padding: 7px 11px; }
-  }
-</style>
+<link href="app.css" rel="stylesheet">
 </head>
 <body>
 <header>
   <div>
     <h1>Film Simulations &amp; Presets</h1>
-    <p id="summary">for Lightroom · one photograph, every look</p>
+    <p>50 film & camera simulations · 29 presets · for Lightroom, on RAW from any camera</p>
   </div>
   <div class="actions">
-    <a class="btn primary" id="dl-all" href="#">Download all (.zip)</a>
+    <a class="btn primary" href="https://github.com/hstockeb/film-simulations-and-presets/releases/latest/download/Film-Simulations-and-Presets.zip">Download all 79 (.zip)</a>
     <a class="btn" href="https://github.com/hstockeb/film-simulations-and-presets">GitHub</a>
   </div>
 </header>
 
-<main>
-  <section class="stage" aria-label="Before and after">
-    <div class="compare" id="compare" tabindex="0" role="slider" aria-label="Drag to compare the original with the look"
-         aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
-      <img id="before" alt="the unedited original">
-      <img id="after" class="after" alt="">
-      <div class="handle"></div>
-      <span class="tag left edge">Original</span>
-      <span class="tag right edge" id="tag-look"></span>
+<div class="landing">
+  <p>Two collections. The simulations reach for how a real film or a camera maker renders
+  light; the presets are looks of their own. Hover to see one, then step inside to
+  compare every look against the untouched original.</p>
+  <div class="doors">
+  <a class="door" href="simulations/">
+    <div class="frame">
+      <img src="samples/DSC04687_original.jpg" alt="">
+      <img class="look" src="samples/kodak/Kodak%20-%20Portra_400.jpg" alt="">
     </div>
-    <div class="caption">
-      <div>
-        <div class="edge" id="cap-family"></div>
-        <h2 id="cap-name"></h2>
-      </div>
-      <a class="btn" id="dl-one" download>Download preset (.xmp)</a>
+    <div class="count edge">50 looks · Fuji · Kodak · Leica</div>
+    <h2>Film &amp; Camera Simulations</h2>
+    <p>Kodak, Fuji and Leica looks for Lightroom — drag across one photograph to see every one.</p>
+    <span class="go">Explore →</span>
+  </a>
+  <a class="door" href="presets/">
+    <div class="frame">
+      <img src="samples/DSC04687_original.jpg" alt="">
+      <img class="look" src="samples/landscape/Landscape%20-%20Storm_Sky.jpg" alt="">
     </div>
-    <p class="hint">Drag across the photo · <kbd>←</kbd> <kbd>→</kbd> move the divider · <kbd>↑</kbd> <kbd>↓</kbd> step through the looks</p>
-  </section>
-
-  <aside id="list" aria-label="Looks"></aside>
-</main>
+    <div class="count edge">29 looks · Landscape · Modern Trends · Personal</div>
+    <h2>Presets</h2>
+    <p>Landscape and modern looks for Lightroom — drag across one photograph to see every one.</p>
+    <span class="go">Explore →</span>
+  </a>
+  </div>
+</div>
 
 <footer>
   Every image is the same frame, developed at the same exposure — what changes is only the look.
   Import into Lightroom Classic or CC: Presets → Import Presets, and pick the .zip or .xmp.
   Free to use, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
 </footer>
-
-<script>
-const REPO = "https://github.com/hstockeb/film-simulations-and-presets";
-const ZIP = name => `${REPO}/releases/latest/download/${name}.zip`;
-const zipName = family => family.replace(/\s+/g, "-");
-
-const el = id => document.getElementById(id);
-const compare = el("compare"), after = el("after");
-let looks = [], current = -1;
-
-function setPos(pct) {
-  pct = Math.max(0, Math.min(100, pct));
-  compare.style.setProperty("--pos", pct + "%");
-  compare.setAttribute("aria-valuenow", Math.round(pct));
-}
-
-function show(i, push) {
-  if (i < 0 || i >= looks.length) return;
-  current = i;
-  const L = looks[i];
-  after.src = L.image;
-  after.alt = L.name;
-  el("tag-look").textContent = L.name;
-  el("cap-name").textContent = L.name;
-  el("cap-family").textContent = `${L.family} · ${L.kindName}`;
-  const dl = el("dl-one");
-  dl.href = L.preset;
-  dl.setAttribute("download", decodeURIComponent(L.preset.split("/").pop()));
-  document.querySelectorAll(".look").forEach(b =>
-    b.setAttribute("aria-current", b.dataset.i == i ? "true" : "false"));
-  // warm the cache for the neighbours so stepping through is instant
-  [i - 1, i + 1].forEach(j => { if (looks[j]) new Image().src = looks[j].image; });
-  if (push) history.replaceState(null, "", "#" + L.slug);
-}
-
-function slugify(s) { return s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); }
-
-function build(data) {
-  el("summary").textContent = `for Lightroom · ${data.summary} · one photograph, every look`;
-  el("dl-all").href = ZIP("Film-Simulations-and-Presets");
-  el("before").src = data.original;
-  const kindName = Object.fromEntries(data.kinds.map(k => [k.id, k.name]));
-  const blurbs = {
-    sims: "Emulations of real film stocks and of camera makers' built-in looks.",
-    presets: "Looks of their own — not modelled on any film or camera.",
-  };
-  const list = el("list");
-  for (const k of data.kinds) {
-    const fams = data.families.filter(f => f.kind === k.id);
-    if (!fams.length) continue;
-    const sec = document.createElement("section");
-    sec.className = "kind";
-    const n = fams.reduce((a, f) => a + f.looks.length, 0);
-    sec.innerHTML = `<h3 class="edge">${k.name} · ${n}</h3><p>${blurbs[k.id] || ""}</p>`;
-    for (const f of fams) {
-      const div = document.createElement("div");
-      div.className = "family";
-      div.innerHTML = `<h4><span>${f.name}</span><a href="${ZIP(zipName(f.name))}">${f.looks.length} · zip ↓</a></h4>`;
-      const grid = document.createElement("div");
-      grid.className = "grid";
-      for (const L of f.looks) {
-        const i = looks.length;
-        looks.push({ ...L, family: f.name, kindName: kindName[f.kind], slug: slugify(f.slug + " " + L.name) });
-        const b = document.createElement("button");
-        b.className = "look";
-        b.dataset.i = i;
-        b.title = L.name;
-        b.innerHTML = `<img loading="lazy" src="${L.thumb}" alt=""><span></span>`;
-        b.querySelector("span").textContent = L.name;
-        b.addEventListener("click", () => {
-          show(i, true);
-          if (matchMedia("(max-width: 980px)").matches) scrollTo({ top: 0, behavior: "smooth" });
-        });
-        grid.appendChild(b);
-      }
-      div.appendChild(grid);
-      sec.appendChild(div);
-    }
-    list.appendChild(sec);
-  }
-  const fromHash = looks.findIndex(L => "#" + L.slug === location.hash);
-  const start = fromHash >= 0 ? fromHash : Math.max(0, looks.findIndex(L => /Portra 400/.test(L.name)));
-  show(start, false);
-}
-
-// dragging
-function fromEvent(e) {
-  const r = compare.getBoundingClientRect();
-  setPos((e.clientX - r.left) / r.width * 100);
-}
-let dragging = false;
-compare.addEventListener("pointerdown", e => { dragging = true; compare.setPointerCapture(e.pointerId); fromEvent(e); });
-compare.addEventListener("pointermove", e => { if (dragging) fromEvent(e); });
-compare.addEventListener("pointerup", () => dragging = false);
-compare.addEventListener("pointercancel", () => dragging = false);
-
-document.addEventListener("keydown", e => {
-  if (e.target.closest("input, textarea")) return;
-  const pos = parseFloat(compare.style.getPropertyValue("--pos")) || 50;
-  if (e.key === "ArrowLeft") { setPos(pos - 5); e.preventDefault(); }
-  else if (e.key === "ArrowRight") { setPos(pos + 5); e.preventDefault(); }
-  else if (e.key === "ArrowDown") { show(current + 1, true); e.preventDefault(); }
-  else if (e.key === "ArrowUp") { show(current - 1, true); e.preventDefault(); }
-});
-
-setPos(50);
-fetch("looks.json").then(r => r.json()).then(build).catch(() => {
-  el("list").textContent = "Could not load the list of looks.";
-});
-</script>
 </body>
 </html>

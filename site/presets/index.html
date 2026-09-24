@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Presets for Lightroom</title>
+<meta name="description" content="Landscape and modern looks for Lightroom — drag across one photograph to see every one. Free, CC BY 4.0, for RAW from any camera.">
+<meta property="og:title" content="Presets for Lightroom">
+<meta property="og:description" content="Landscape and modern looks for Lightroom — drag across one photograph to see every one. Free, CC BY 4.0, for RAW from any camera.">
+<meta property="og:image" content="https://hstockeb.github.io/film-simulations-and-presets/samples/social-preview-presets.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="../app.css" rel="stylesheet">
+</head>
+<body data-kind="presets" data-root="../">
+<header>
+  <div>
+    <h1><a href="../" style="text-decoration:none">Presets</a></h1>
+    <p id="summary"></p>
+  </div>
+  <div class="actions">
+    <nav class="switch" aria-label="Sections"><a href="../simulations/">Film simulations</a><a href="../presets/" aria-current="page">Presets</a></nav>
+    <a class="btn primary" id="dl-all" href="#">Download all (.zip)</a>
+    <a class="btn" href="https://github.com/hstockeb/film-simulations-and-presets">GitHub</a>
+  </div>
+</header>
+
+<main>
+  <section class="stage" aria-label="Before and after">
+    <div class="compare" id="compare" tabindex="0" role="slider" aria-label="Drag to compare the original with the look"
+         aria-valuemin="0" aria-valuemax="100" aria-valuenow="50">
+      <img id="before" alt="the unedited original">
+      <img id="after" class="after" alt="">
+      <div class="handle"></div>
+      <span class="tag left edge">Original</span>
+      <span class="tag right edge" id="tag-look"></span>
+    </div>
+    <div class="caption">
+      <div>
+        <div class="edge" id="cap-family"></div>
+        <h2 id="cap-name"></h2>
+      </div>
+      <a class="btn" id="dl-one" download>Download preset (.xmp)</a>
+    </div>
+    <p class="hint">Drag across the photo · <kbd>←</kbd> <kbd>→</kbd> move the divider · <kbd>↑</kbd> <kbd>↓</kbd> step through the looks</p>
+  </section>
+
+  <aside id="list" aria-label="Looks"></aside>
+</main>
+
+<footer>
+  Every image is the same frame, developed at the same exposure — what changes is only the look.
+  Import into Lightroom Classic or CC: Presets → Import Presets, and pick the .zip or .xmp.
+  Free to use, <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.
+</footer>
+<script src="../app.js"></script>
+</body>
+</html>
