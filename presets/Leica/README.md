@@ -1,12 +1,12 @@
 # Leica
 
-18 looks — 12 in colour, 6 in black & white. Auto Tone stays on throughout.
+17 looks — 11 in colour, 6 in black & white: every Look Leica makes. Auto Tone is off throughout.
 
 <p align="center"><img src="../../samples/gifs/leica.gif" width="480" alt="the same frame through every Leica look"></p> <!-- family-loop -->
 
 | | Looks |
 |---|---|
-| Colour | Standard · Vivid · Natural · Chrome · Classic · Contemporary · Teal · Brass · Eternal · Silver · Bleach · Look |
+| Colour | Standard · Vivid · Natural · Chrome · Classic · Contemporary · Teal · Brass · Eternal · Silver · Bleach |
 | Monochrome | Monochrom Natural · Monochrom High Contrast · Selenium · Sepia · Blue · Greg Williams |
 
 These reproduce the *aesthetic direction* of Leica's in-camera **Leica Looks**.
@@ -14,12 +14,11 @@ Leica Looks are baked into the JPEG, never the DNG, and Leica publishes no
 values — each is a reasoned approximation of Leica's published descriptions,
 cross-referenced against 5–8 independent sources per Look.
 
-`Classic`, `Contemporary`, `Silver` and `Bleach` have a deliberately lifted,
-washed base. If Auto lands a frame too contrasty, uncheck *Auto* in the Presets
-panel before applying to get their baked tone values instead.
-
-`Leica Look` is the general house look — the one to start from if you want the
-rendering without committing to a named Look.
+**Auto Tone is off in every simulation.** A film has a fixed response — Portra
+is always soft with open shadows, Tri-X always punchy — and that response lives
+in each preset's Basic sliders, which Auto would replace photo by photo. Set
+your exposure, then apply; the film does the rest. `Contemporary`'s bright shadows and `Silver`'s lifted,
+steely base depend on it most.
 
 <!-- gallery:start -->
 
@@ -37,14 +36,14 @@ rendering without committing to a named Look.
 <td width="33%" align="center"><a href="../../samples/leica/Leica-style%20-%20Eternal.jpg"><img src="../../samples/thumbs/leica/Leica-style%20-%20Eternal.jpg" width="100%"></a><br><b>Leica Eternal</b><br><sub><a href="../../presets/Leica/Color/Leica-style%20-%20Eternal.xmp">preset&nbsp;.xmp</a></sub></td>
 </tr>
 <tr>
-<td width="33%" align="center"><a href="../../samples/leica/Leica-style%20-%20Look.jpg"><img src="../../samples/thumbs/leica/Leica-style%20-%20Look.jpg" width="100%"></a><br><b>Leica Look</b><br><sub><a href="../../presets/Leica/Color/Leica-style%20-%20Look.xmp">preset&nbsp;.xmp</a></sub></td>
 <td width="33%" align="center"><a href="../../samples/leica/Leica-style%20-%20Natural.jpg"><img src="../../samples/thumbs/leica/Leica-style%20-%20Natural.jpg" width="100%"></a><br><b>Leica Natural</b><br><sub><a href="../../presets/Leica/Color/Leica-style%20-%20Natural.xmp">preset&nbsp;.xmp</a></sub></td>
 <td width="33%" align="center"><a href="../../samples/leica/Leica-style%20-%20Silver.jpg"><img src="../../samples/thumbs/leica/Leica-style%20-%20Silver.jpg" width="100%"></a><br><b>Leica Silver</b><br><sub><a href="../../presets/Leica/Color/Leica-style%20-%20Silver.xmp">preset&nbsp;.xmp</a></sub></td>
+<td width="33%" align="center"><a href="../../samples/leica/Leica-style%20-%20Standard.jpg"><img src="../../samples/thumbs/leica/Leica-style%20-%20Standard.jpg" width="100%"></a><br><b>Leica Standard</b><br><sub><a href="../../presets/Leica/Color/Leica-style%20-%20Standard.xmp">preset&nbsp;.xmp</a></sub></td>
 </tr>
 <tr>
-<td width="33%" align="center"><a href="../../samples/leica/Leica-style%20-%20Standard.jpg"><img src="../../samples/thumbs/leica/Leica-style%20-%20Standard.jpg" width="100%"></a><br><b>Leica Standard</b><br><sub><a href="../../presets/Leica/Color/Leica-style%20-%20Standard.xmp">preset&nbsp;.xmp</a></sub></td>
 <td width="33%" align="center"><a href="../../samples/leica/Leica-style%20-%20Teal.jpg"><img src="../../samples/thumbs/leica/Leica-style%20-%20Teal.jpg" width="100%"></a><br><b>Leica Teal</b><br><sub><a href="../../presets/Leica/Color/Leica-style%20-%20Teal.xmp">preset&nbsp;.xmp</a></sub></td>
 <td width="33%" align="center"><a href="../../samples/leica/Leica-style%20-%20Vivid.jpg"><img src="../../samples/thumbs/leica/Leica-style%20-%20Vivid.jpg" width="100%"></a><br><b>Leica Vivid</b><br><sub><a href="../../presets/Leica/Color/Leica-style%20-%20Vivid.xmp">preset&nbsp;.xmp</a></sub></td>
+<td width="33%"></td>
 </tr>
 </table>
 

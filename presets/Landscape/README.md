@@ -1,6 +1,6 @@
 # Landscape
 
-17 looks — 14 in colour, 3 in black & white. Built for land, not for faces.
+16 looks — 14 in colour, 2 in black & white. Built for land, not for faces.
 
 <p align="center"><img src="../../samples/gifs/landscape.gif" width="480" alt="the same frame through every Landscape look"></p> <!-- family-loop -->
 
@@ -9,7 +9,7 @@
 | General | Andes High Country · Valdivian Rainforest · Coast / Long Exposure (no auto) · High Desert · Storm Sky · Alpenglow · Andean Autumn |
 | American Southwest | Sedona Red Rock · Slot Canyon · Sonoran Desert · Grand Canyon Haze |
 | California | Coastal Fog (no auto) · Golden Hills · Death Valley |
-| Monochrome | Ilford HP5 Plus · Red Filter · Orange Filter |
+| Monochrome | Red Filter · Orange Filter |
 
 **Why a separate family.** The rest of the repo is tuned for people: 38 of its
 49 colour presets *desaturate* green, which is what you do to stop foliage
@@ -56,8 +56,8 @@ mineral seams.
 The monochrome looks reproduce contrast filters through the Black & White Mix.
 `Red Filter` drives blue sky toward black for maximum cloud separation, at the
 cost of some cloud detail; `Orange Filter` is the middle ground that keeps it.
-`Ilford HP5 Plus` is the film of the three — grainier, flatter in the toe, and
-the one to reach for when the frame has weather in it rather than a clean sky.
+For a film grain and tonality, `Ilford HP5 Plus` now lives with the simulations,
+in [Ilford](../Ilford/README.md).
 
 <!-- gallery:start -->
 
@@ -95,9 +95,9 @@ the one to reach for when the frame has weather in it rather than a clean sky.
 
 <table>
 <tr>
-<td width="33%" align="center"><a href="../../samples/landscape/Landscape%20-%20Ilford_HP5.jpg"><img src="../../samples/thumbs/landscape/Landscape%20-%20Ilford_HP5.jpg" width="100%"></a><br><b>Ilford HP5 Plus</b><br><sub><a href="../../presets/Landscape/Monochrome/Landscape%20-%20Ilford_HP5.xmp">preset&nbsp;.xmp</a></sub></td>
 <td width="33%" align="center"><a href="../../samples/landscape/Landscape%20-%20Orange_Filter.jpg"><img src="../../samples/thumbs/landscape/Landscape%20-%20Orange_Filter.jpg" width="100%"></a><br><b>Orange Filter</b><br><sub><a href="../../presets/Landscape/Monochrome/Landscape%20-%20Orange_Filter.xmp">preset&nbsp;.xmp</a></sub></td>
 <td width="33%" align="center"><a href="../../samples/landscape/Landscape%20-%20Red_Filter.jpg"><img src="../../samples/thumbs/landscape/Landscape%20-%20Red_Filter.jpg" width="100%"></a><br><b>Red Filter</b><br><sub><a href="../../presets/Landscape/Monochrome/Landscape%20-%20Red_Filter.xmp">preset&nbsp;.xmp</a></sub></td>
+<td width="33%"></td>
 </tr>
 </table>
 

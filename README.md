@@ -37,8 +37,13 @@ Emulations of real film stocks and of camera makers' built-in looks.
 <table>
 <tr>
 <td width="33%" align="center"><a href="samples/fuji/Fujifilm%20-%20Velvia.jpg"><img src="samples/thumbs/fuji/Fujifilm%20-%20Velvia.jpg" width="100%"></a><br><b>Fuji</b><br><sub>camera film simulations + the film stocks they were named after<br><a href="presets/Fuji/README.md"><b>18 presets →</b></a></sub></td>
+<td width="33%" align="center"><a href="samples/ilford/Ilford%20-%20HP5_Plus.jpg"><img src="samples/thumbs/ilford/Ilford%20-%20HP5_Plus.jpg" width="100%"></a><br><b>Ilford</b><br><sub>British black & white stocks<br><a href="presets/Ilford/README.md"><b>1 presets →</b></a></sub></td>
 <td width="33%" align="center"><a href="samples/kodak/Kodak%20-%20Portra_400.jpg"><img src="samples/thumbs/kodak/Kodak%20-%20Portra_400.jpg" width="100%"></a><br><b>Kodak</b><br><sub>negative, slide and cine emulsions<br><a href="presets/Kodak/README.md"><b>14 presets →</b></a></sub></td>
-<td width="33%" align="center"><a href="samples/leica/Leica-style%20-%20Chrome.jpg"><img src="samples/thumbs/leica/Leica-style%20-%20Chrome.jpg" width="100%"></a><br><b>Leica</b><br><sub>the aesthetic direction of Leica's in-camera Looks<br><a href="presets/Leica/README.md"><b>18 presets →</b></a></sub></td>
+</tr>
+<tr>
+<td width="33%" align="center"><a href="samples/leica/Leica-style%20-%20Chrome.jpg"><img src="samples/thumbs/leica/Leica-style%20-%20Chrome.jpg" width="100%"></a><br><b>Leica</b><br><sub>the aesthetic direction of Leica's in-camera Looks<br><a href="presets/Leica/README.md"><b>17 presets →</b></a></sub></td>
+<td width="33%"></td>
+<td width="33%"></td>
 </tr>
 </table>
 
@@ -48,8 +53,8 @@ Looks of their own — not modelled on any film or camera.
 
 <table>
 <tr>
-<td width="33%" align="center"><a href="samples/landscape/Landscape%20-%20Storm_Sky.jpg"><img src="samples/thumbs/landscape/Landscape%20-%20Storm_Sky.jpg" width="100%"></a><br><b>Landscape</b><br><sub>land-first colour — green as a subject, not a distraction<br><a href="presets/Landscape/README.md"><b>17 presets →</b></a></sub></td>
-<td width="33%" align="center"><a href="samples/modern/Modern%20-%20Golden_Hour_Family.jpg"><img src="samples/thumbs/modern/Modern%20-%20Golden_Hour_Family.jpg" width="100%"></a><br><b>Modern Trends</b><br><sub>current editorial and social looks<br><a href="presets/Modern%20Trends/README.md"><b>10 presets →</b></a></sub></td>
+<td width="33%" align="center"><a href="samples/landscape/Landscape%20-%20Storm_Sky.jpg"><img src="samples/thumbs/landscape/Landscape%20-%20Storm_Sky.jpg" width="100%"></a><br><b>Landscape</b><br><sub>land-first colour — green as a subject, not a distraction<br><a href="presets/Landscape/README.md"><b>16 presets →</b></a></sub></td>
+<td width="33%" align="center"><a href="samples/modern/Modern%20-%20Golden_Hour_Family.jpg"><img src="samples/thumbs/modern/Modern%20-%20Golden_Hour_Family.jpg" width="100%"></a><br><b>Modern Trends</b><br><sub>current editorial and social looks<br><a href="presets/Modern%20Trends/README.md"><b>11 presets →</b></a></sub></td>
 <td width="33%" align="center"><a href="samples/personal/Vicuna_2026.jpg"><img src="samples/thumbs/personal/Vicuna_2026.jpg" width="100%"></a><br><b>Personal</b><br><sub>hand-built from single trips — not camera-agnostic<br><a href="presets/Personal/README.md"><b>2 presets →</b></a></sub></td>
 </tr>
 </table>
@@ -95,11 +100,14 @@ scales the whole look at once — curve, colour, grain, everything.
 | 40–60 | just a hint of direction |
 | 110–150 | pushes the gentler looks (Standard, Natural, Chrome) harder |
 
-**Leave Auto Tone where it is.** Most of these re-judge exposure for each photo,
-which is usually what you want. A handful — anything marked `(no auto)`, plus
-`Snow / Winter — Moody` — are built on a deliberately lifted or deliberately
-dark base that Auto would "correct" straight back to normal, killing the look.
-Set the exposure by hand on those.
+**Expose first on the simulations.** Every film & camera simulation has Auto
+Tone off: a film has a fixed response, and Auto would replace it photo by photo.
+Set your exposure, then apply — the film does the rest.
+
+**Let the presets adapt.** Most presets keep Auto Tone on and re-judge each
+photo. A handful — anything marked `(no auto)`, plus `Snow / Winter — Moody` —
+are built on a deliberately lifted or dark base that Auto would "correct" back
+to normal. Set the exposure by hand on those.
 
 **When something looks off**, reach for the right control:
 

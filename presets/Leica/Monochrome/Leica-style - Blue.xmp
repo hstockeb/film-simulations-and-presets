@@ -23,7 +23,7 @@
    crs:Version="18.5.1"
    crs:CompatibleVersion="268435456"
    crs:ProcessVersion="15.4"
-   crs:AutoTone="True"
+   crs:AutoTone="False"
    crs:AutoWhiteVersion="134348800"
    crs:WhiteBalance="As Shot"
    crs:Contrast2012="8"
@@ -77,6 +77,13 @@
    crs:CurveRefineSaturation="100"
    crs:ConvertToGrayscale="True"
    crs:ToneCurveName2012="Custom"
+   crs:ShadowTint="0"
+   crs:RedHue="0"
+   crs:RedSaturation="0"
+   crs:GreenHue="0"
+   crs:GreenSaturation="0"
+   crs:BlueHue="0"
+   crs:BlueSaturation="0"
    crs:HasSettings="True">
    <crs:ToneCurvePV2012>
     <rdf:Seq>

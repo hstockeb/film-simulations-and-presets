@@ -23,7 +23,7 @@
    crs:Version="18.5.1"
    crs:CompatibleVersion="268435456"
    crs:ProcessVersion="15.4"
-   crs:AutoTone="True"
+   crs:AutoTone="False"
    crs:AutoWhiteVersion="134348800"
    crs:WhiteBalance="As Shot"
    crs:Contrast2012="15"
@@ -68,6 +68,22 @@
    crs:SplitToningHighlightSaturation="0"
    crs:SplitToningBalance="0"
    crs:ToneCurveName2012="Custom"
+   crs:ShadowTint="0"
+   crs:RedHue="0"
+   crs:RedSaturation="0"
+   crs:GreenHue="0"
+   crs:GreenSaturation="0"
+   crs:BlueHue="0"
+   crs:BlueSaturation="0"
+   crs:ColorGradeBlending="50"
+   crs:ColorGradeGlobalHue="0"
+   crs:ColorGradeGlobalLum="0"
+   crs:ColorGradeGlobalSat="0"
+   crs:ColorGradeHighlightLum="0"
+   crs:ColorGradeMidtoneHue="0"
+   crs:ColorGradeMidtoneLum="0"
+   crs:ColorGradeMidtoneSat="0"
+   crs:ColorGradeShadowLum="0"
    crs:HasSettings="True">
    <crs:ToneCurvePV2012>
     <rdf:Seq>
@@ -82,7 +98,7 @@
    </crs:ToneCurvePV2012>
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Landscape - Ilford HP5 Plus (Hernan)</rdf:li>
+     <rdf:li xml:lang="x-default">Ilford - HP5 Plus (Hernan)</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>
@@ -92,7 +108,7 @@
    </crs:ShortName>
    <crs:Group>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Landscape - Hernan</rdf:li>
+     <rdf:li xml:lang="x-default">Ilford - Hernan</rdf:li>
     </rdf:Alt>
    </crs:Group>
    <crs:Look>

@@ -1,6 +1,6 @@
 # Kodak
 
-14 emulsions — 12 in colour, 2 in black & white. Auto Tone stays on throughout.
+14 emulsions — 12 in colour, 2 in black & white. Auto Tone is off throughout.
 
 <p align="center"><img src="../../samples/gifs/kodak.gif" width="480" alt="the same frame through every Kodak look"></p> <!-- family-loop -->
 
@@ -16,6 +16,11 @@ photographer blogs, film labs and technical editing guides — before it was
 locked. Warmth and toning are built with colour science (Calibration + Colour
 Grading + HSL), not the temperature slider, so the presets are safe for photos
 shot at any time of day.
+
+**Auto Tone is off in every simulation.** A film has a fixed response — Portra
+is always soft with open shadows, Tri-X always punchy — and that response lives
+in each preset's Basic sliders, which Auto would replace photo by photo. Set
+your exposure, then apply; the film does the rest.
 
 `CineStill 800T` is filed here because it *is* Vision3 500T, respooled with the
 remjet layer removed — which is exactly where its halation around highlights

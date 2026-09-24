@@ -5,7 +5,7 @@
     xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
    crs:PresetType="Normal"
    crs:Cluster=""
-   crs:UUID="AE223C113E2C43FF84104C547D0C3CF1"
+   crs:UUID="AEB9CB7FD3E2495CA43A1AE61750231E"
    crs:SupportsAmount2="True"
    crs:SupportsAmount="True"
    crs:SupportsColor="True"
@@ -24,17 +24,18 @@
    crs:CompatibleVersion="268435456"
    crs:ProcessVersion="15.4"
    crs:AutoTone="False"
+   crs:AutoWhiteVersion="134348800"
    crs:WhiteBalance="As Shot"
-   crs:Contrast2012="-10"
-   crs:Highlights2012="-14"
-   crs:Shadows2012="20"
-   crs:Whites2012="-2"
-   crs:Blacks2012="16"
-   crs:Texture="-2"
-   crs:Clarity2012="-6"
-   crs:Dehaze="-4"
-   crs:Vibrance="6"
-   crs:Saturation="-4"
+   crs:Contrast2012="14"
+   crs:Highlights2012="-12"
+   crs:Shadows2012="-10"
+   crs:Whites2012="8"
+   crs:Blacks2012="-8"
+   crs:Texture="8"
+   crs:Clarity2012="10"
+   crs:Dehaze="0"
+   crs:Vibrance="-18"
+   crs:Saturation="-10"
    crs:ParametricShadows="0"
    crs:ParametricDarks="0"
    crs:ParametricLights="0"
@@ -42,81 +43,82 @@
    crs:ParametricShadowSplit="25"
    crs:ParametricMidtoneSplit="50"
    crs:ParametricHighlightSplit="75"
-   crs:HueAdjustmentRed="4"
-   crs:HueAdjustmentOrange="-4"
+   crs:HueAdjustmentRed="0"
+   crs:HueAdjustmentOrange="0"
    crs:HueAdjustmentYellow="-8"
-   crs:HueAdjustmentGreen="0"
+   crs:HueAdjustmentGreen="-12"
    crs:HueAdjustmentAqua="0"
    crs:HueAdjustmentBlue="0"
    crs:HueAdjustmentPurple="0"
    crs:HueAdjustmentMagenta="0"
-   crs:SaturationAdjustmentRed="4"
-   crs:SaturationAdjustmentOrange="8"
-   crs:SaturationAdjustmentYellow="2"
-   crs:SaturationAdjustmentGreen="-14"
-   crs:SaturationAdjustmentAqua="-8"
-   crs:SaturationAdjustmentBlue="-10"
+   crs:SaturationAdjustmentRed="0"
+   crs:SaturationAdjustmentOrange="-3"
+   crs:SaturationAdjustmentYellow="-18"
+   crs:SaturationAdjustmentGreen="-22"
+   crs:SaturationAdjustmentAqua="6"
+   crs:SaturationAdjustmentBlue="8"
    crs:SaturationAdjustmentPurple="0"
    crs:SaturationAdjustmentMagenta="0"
-   crs:LuminanceAdjustmentRed="0"
-   crs:LuminanceAdjustmentOrange="8"
-   crs:LuminanceAdjustmentYellow="8"
-   crs:LuminanceAdjustmentGreen="0"
+   crs:LuminanceAdjustmentRed="-5"
+   crs:LuminanceAdjustmentOrange="0"
+   crs:LuminanceAdjustmentYellow="-5"
+   crs:LuminanceAdjustmentGreen="-8"
    crs:LuminanceAdjustmentAqua="0"
-   crs:LuminanceAdjustmentBlue="-4"
+   crs:LuminanceAdjustmentBlue="5"
    crs:LuminanceAdjustmentPurple="0"
    crs:LuminanceAdjustmentMagenta="0"
-   crs:SplitToningShadowHue="38"
-   crs:SplitToningShadowSaturation="8"
-   crs:SplitToningHighlightHue="40"
+   crs:SplitToningShadowHue="210"
+   crs:SplitToningShadowSaturation="20"
+   crs:SplitToningHighlightHue="50"
    crs:SplitToningHighlightSaturation="14"
-   crs:SplitToningBalance="10"
-   crs:ColorGradeMidtoneHue="40"
-   crs:ColorGradeMidtoneSat="10"
-   crs:ColorGradeShadowLum="3"
+   crs:SplitToningBalance="-15"
+   crs:ColorGradeMidtoneHue="0"
+   crs:ColorGradeMidtoneSat="0"
+   crs:ColorGradeShadowLum="0"
    crs:ColorGradeMidtoneLum="0"
    crs:ColorGradeHighlightLum="0"
    crs:ColorGradeBlending="50"
-   crs:ColorGradeGlobalHue="40"
-   crs:ColorGradeGlobalSat="6"
+   crs:ColorGradeGlobalHue="0"
+   crs:ColorGradeGlobalSat="0"
    crs:ColorGradeGlobalLum="0"
-   crs:ShadowTint="4"
-   crs:RedHue="3"
-   crs:RedSaturation="6"
-   crs:GreenHue="-10"
-   crs:GreenSaturation="0"
+   crs:ShadowTint="-10"
+   crs:RedHue="0"
+   crs:RedSaturation="0"
+   crs:GreenHue="-8"
+   crs:GreenSaturation="-14"
    crs:BlueHue="0"
-   crs:BlueSaturation="-4"
-   crs:GrainAmount="8"
-   crs:GrainSize="24"
+   crs:BlueSaturation="6"
+   crs:GrainAmount="18"
+   crs:GrainSize="25"
    crs:GrainFrequency="50"
-   crs:PostCropVignetteAmount="-6"
-   crs:PostCropVignetteMidpoint="50"
-   crs:PostCropVignetteFeather="50"
-   crs:PostCropVignetteRoundness="0"
-   crs:PostCropVignetteStyle="1"
    crs:HDREditMode="0"
    crs:CurveRefineSaturation="100"
    crs:ConvertToGrayscale="False"
    crs:ToneCurveName2012="Custom"
+   crs:PostCropVignetteAmount="0"
+   crs:PostCropVignetteFeather="50"
+   crs:PostCropVignetteMidpoint="50"
+   crs:PostCropVignetteRoundness="0"
+   crs:PostCropVignetteStyle="1"
    crs:HasSettings="True">
    <crs:ToneCurvePV2012>
     <rdf:Seq>
-     <rdf:li>0, 16</rdf:li>
-     <rdf:li>64, 70</rdf:li>
-     <rdf:li>128, 132</rdf:li>
-     <rdf:li>192, 192</rdf:li>
-     <rdf:li>255, 246</rdf:li>
+     <rdf:li>0, 10</rdf:li>
+     <rdf:li>32, 32</rdf:li>
+     <rdf:li>64, 62</rdf:li>
+     <rdf:li>128, 128</rdf:li>
+     <rdf:li>192, 190</rdf:li>
+     <rdf:li>255, 248</rdf:li>
     </rdf:Seq>
    </crs:ToneCurvePV2012>
    <crs:Name>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Fujifilm - Nostalgic Negative (Hernan)</rdf:li>
+     <rdf:li xml:lang="x-default">Fujifilm - Classic Chrome Street (Hernan)</rdf:li>
     </rdf:Alt>
    </crs:Name>
    <crs:ShortName>
     <rdf:Alt>
-     <rdf:li xml:lang="x-default">Fujifilm Nostalgic Neg (no auto)</rdf:li>
+     <rdf:li xml:lang="x-default">Fujifilm Classic Chrome Street</rdf:li>
     </rdf:Alt>
    </crs:ShortName>
    <crs:Group>

@@ -23,7 +23,7 @@
    crs:Version="18.5.1"
    crs:CompatibleVersion="268435456"
    crs:ProcessVersion="15.4"
-   crs:AutoTone="True"
+   crs:AutoTone="False"
    crs:AutoWhiteVersion="134348800"
    crs:WhiteBalance="As Shot"
    crs:Contrast2012="18"

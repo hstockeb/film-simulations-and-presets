@@ -23,7 +23,7 @@
    crs:Version="18.5.1"
    crs:CompatibleVersion="268435456"
    crs:ProcessVersion="15.4"
-   crs:AutoTone="True"
+   crs:AutoTone="False"
    crs:AutoWhiteVersion="134348800"
    crs:WhiteBalance="As Shot"
    crs:Contrast2012="-8"
@@ -46,8 +46,8 @@
    crs:HueAdjustmentRed="4"
    crs:HueAdjustmentOrange="2"
    crs:HueAdjustmentYellow="-6"
-   crs:HueAdjustmentGreen="18"
-   crs:HueAdjustmentAqua="6"
+   crs:HueAdjustmentGreen="-6"
+   crs:HueAdjustmentAqua="0"
    crs:HueAdjustmentBlue="-6"
    crs:HueAdjustmentPurple="0"
    crs:HueAdjustmentMagenta="4"
@@ -96,6 +96,10 @@
    crs:CurveRefineSaturation="100"
    crs:ConvertToGrayscale="False"
    crs:ToneCurveName2012="Custom"
+   crs:PostCropVignetteFeather="50"
+   crs:PostCropVignetteMidpoint="50"
+   crs:PostCropVignetteRoundness="0"
+   crs:PostCropVignetteStyle="1"
    crs:HasSettings="True">
    <crs:ToneCurvePV2012>
     <rdf:Seq>
