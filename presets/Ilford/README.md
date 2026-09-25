@@ -1,18 +1,13 @@
 # Ilford
 
-1 look, in black & white.
+1 look · black & white · film simulation
 
 <p align="center"><img src="../../samples/gifs/ilford.gif" width="480" alt="the same frame through every Ilford look"></p> <!-- family-loop -->
 
-`Ilford HP5 Plus` — the British 400-speed stock. Grainier than Tri-X, flatter in
-the toe, and forgiving when pushed: the one to reach for when a frame has weather
-in it rather than a clean sky. The Black & White Mix lifts reds, oranges and
-yellows and darkens blues, like a light yellow filter on a panchromatic film.
+**HP5 Plus** — Ilford's classic 400-speed film. Grainier and softer in the
+shadows than Tri-X, and at its best when the sky has weather in it.
 
-**Auto Tone is off in every simulation.** A film has a fixed response — Portra
-is always soft with open shadows, Tri-X always punchy — and that response lives
-in each preset's Basic sliders, which Auto would replace photo by photo. Set
-your exposure, then apply; the film does the rest.
+Expose first, then apply — like film, it has its own fixed contrast.
 
 <!-- gallery:start -->
 

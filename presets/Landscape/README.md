@@ -1,63 +1,28 @@
 # Landscape
 
-16 looks — 14 in colour, 2 in black & white. Built for land, not for faces.
+16 looks · 14 colour, 2 black & white · preset
 
 <p align="center"><img src="../../samples/gifs/landscape.gif" width="480" alt="the same frame through every Landscape look"></p> <!-- family-loop -->
 
-| | Looks |
+| | |
 |---|---|
-| General | Andes High Country · Valdivian Rainforest · Coast / Long Exposure (no auto) · High Desert · Storm Sky · Alpenglow · Andean Autumn |
+| Anywhere | Andes High Country · Valdivian Rainforest · Coast / Long Exposure *(no auto)* · High Desert · Storm Sky · Alpenglow · Andean Autumn |
 | American Southwest | Sedona Red Rock · Slot Canyon · Sonoran Desert · Grand Canyon Haze |
-| California | Coastal Fog (no auto) · Golden Hills · Death Valley |
-| Monochrome | Red Filter · Orange Filter |
+| California | Coastal Fog *(no auto)* · Golden Hills · Death Valley |
+| Black & white | Red Filter · Orange Filter |
 
-**Why a separate family.** The rest of the repo is tuned for people: 38 of its
-49 colour presets *desaturate* green, which is what you do to stop foliage
-competing with skin. For landscape that is backwards — green wants to be rich
-and, more importantly, **separated**, so a hillside reads as depth rather than
-one flat mass. `Valdivian Rainforest` pushes yellow toward green and green
-toward aqua to spread the yellow-greens away from the blue-greens, while
-`High Desert` and `Andean Autumn` still pull green down deliberately, because
-there green should recede.
+Made for land, not faces. Most looks for people quiet the greens so they don't
+compete with skin; these do the opposite — rich, well-separated greens, deep
+skies, and texture in the clouds.
 
-Deep skies come from **blue luminance** rather than a graduated filter — more
-precise, and more natural. Dehaze stays moderate, paired with Texture for cloud
-structure instead of carrying a sky on its own.
+A few pointers:
+- **Sedona Red Rock** is led by red, **High Desert** by ochre.
+- **Slot Canyon** keeps the purple glow deep in the canyon instead of neutralising it.
+- **Coastal Fog** and **Coast / Long Exposure** keep the haze and the calm — set the exposure yourself.
+- **Red Filter** turns blue sky nearly black; **Orange Filter** is the gentler version.
 
-### Notes on individual looks
-
-`Sedona Red Rock` is led by **red**, not the ochre orange of `High Desert` —
-Sedona's colour is hematite staining the sandstone, so red saturation runs +20
-against High Desert's +8.
-
-`Slot Canyon` is the purple one (+22, the strongest in the repo). Canyon walls
-act as reflector and colour filter at once, and deeper in the passage the
-reflected light shifts from amber to purple — those purples are real and should
-be kept. The usual way slot canyon photos are ruined is auto white balance
-reading the orange sandstone as a cast and neutralising it to grey-cyan; leaving
-WB at *As Shot* avoids that.
-
-`Sonoran Desert` desaturates green while *raising* its luminance, which turns
-saguaro and creosote into grey-sage rather than the mud you get from pulling
-saturation alone. `Grand Canyon Haze` builds aerial perspective by cooling the
-shadows and warming the highlights.
-
-`Coastal Fog` and `Coast / Long Exposure` ship with Auto Tone **off**: fog *is*
-low contrast and Auto reads that as a fault, and Auto re-solving exposure
-defeats a deliberately long exposure. Coastal Fog runs the repo's strongest
-negative Dehaze (−8), because there haze is the subject.
-
-`Golden Hills` is led by **yellow** (+18 against Golden Hour Family's +8) for
-dry summer straw, and carries none of that preset's skin-protecting moves —
-there is no skin in a hillside. `Death Valley` pulls overall saturation down so
-the banded minerals read as pastel, holding purple and magenta up for the
-mineral seams.
-
-The monochrome looks reproduce contrast filters through the Black & White Mix.
-`Red Filter` drives blue sky toward black for maximum cloud separation, at the
-cost of some cloud detail; `Orange Filter` is the middle ground that keeps it.
-For a film grain and tonality, `Ilford HP5 Plus` now lives with the simulations,
-in [Ilford](../Ilford/README.md).
+These looks aren't at their best on the sample photo: it has no desert or red
+rock in it.
 
 <!-- gallery:start -->
 

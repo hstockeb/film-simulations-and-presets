@@ -1,22 +1,17 @@
 # Modern Trends
 
-11 looks, all in colour.
+11 looks · all colour · preset
 
 <p align="center"><img src="../../samples/gifs/modern.gif" width="480" alt="the same frame through every Modern Trends look"></p> <!-- family-loop -->
 
-Current editorial and social styles rather than emulations of anything.
-
-| | Looks |
+| | |
 |---|---|
-| Auto Tone on | Golden Hour Family · Pastel Beach / Summer · Clean & Bright Commercial · Snow / Winter · Fall Editorial · Palm Springs · Warm Glow |
-| Auto Tone off | Warm & Earthy Boho (no auto) · Light & Airy (no auto) · Moody Dark & Matte (no auto) · Snow / Winter — Moody |
+| Adapt to the photo | Golden Hour Family · Pastel Beach / Summer · Clean & Bright Commercial · Snow / Winter · Fall Editorial · Palm Springs · Warm Glow |
+| Set the exposure yourself | Warm & Earthy Boho · Light & Airy · Moody Dark & Matte · Snow / Winter — Moody |
 
-The four with Auto Tone off have a lifted, faded or deliberately dark base that
-Auto would flatten back to a normal histogram — the one thing that would destroy
-the look. Set Exposure by hand on those and let the baked curve do the rest.
-
-`Warm Glow` is soft and warm: open shadows, bright highlights, a gentle golden
-lift through the greens and yellows.
+Today's editorial and social styles: bright and airy, warm and earthy, dark
+and matte. The four in the second row have a deliberately faded or dark base,
+so set the exposure by hand and let the look do the rest.
 
 <!-- gallery:start -->
 

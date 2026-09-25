@@ -1,36 +1,22 @@
 # Fuji
 
-18 looks — 15 in colour, 3 in black & white. Works on RAW from any camera.
+18 looks · 15 colour, 3 black & white · film simulation
 
 <p align="center"><img src="../../samples/gifs/fuji.gif" width="480" alt="the same frame through every Fuji look"></p> <!-- family-loop -->
 
-| Prefix | Looks |
+| | |
 |---|---|
-| `Fujifilm - …` | The 15 in-camera film simulations: Provia · Astia · Velvia · Classic Chrome · Classic Chrome Street · PRO Neg Std · PRO Neg Hi · Classic Negative · Nostalgic Negative · Reala Ace · Eterna · Eterna Bleach Bypass · Acros · Monochrome · Sepia |
-| `Fuji - …` | The 3 film-stock looks: 400H · Velvia 50 · Provia 100F |
+| **Fujifilm …** — the camera settings | Provia · Astia · Velvia · Classic Chrome · Classic Chrome Street · PRO Neg Std · PRO Neg Hi · Classic Negative · Nostalgic Negative · Reala Ace · Eterna · Eterna Bleach Bypass · Acros · Monochrome · Sepia |
+| **Fuji …** — the films | 400H · Velvia 50 · Provia 100F |
 
-Fuji's simulations only exist inside the camera's own JPEGs — shoot RAW and the
-file comes out neutral, and outside a Fuji body they aren't available at all.
-So these aren't copies. Each one is built from scratch, from how that simulation
-is documented to behave, and checked against independent sources. Nothing of
-Fuji's is redistributed here.
+Fuji's film simulations normally live only inside Fuji cameras. These bring
+their look to any camera's RAW.
 
-**Why two prefixes.** Fuji's *Velvia* and *Provia* simulations are named after
-the films, and the films are emulated here too — `Fujifilm Velvia` (the camera's
-punchy JPEG rendering) and `Velvia 50` (the slide film) are different looks. The
-prefix carries into the ShortName so they stay apart in the Presets panel.
+Some share a name with a film: *Fujifilm Velvia* is the camera's punchy setting,
+*Velvia 50* is the slide film, with its magenta-tinted shadows and fine grain.
+*Classic Chrome Street* is Classic Chrome with harder contrast and grain.
 
-**Auto Tone is off in every simulation.** A film has a fixed response — Portra
-is always soft with open shadows, Tri-X always punchy — and that response lives
-in each preset's Basic sliders, which Auto would replace photo by photo. Set
-your exposure, then apply; the film does the rest.
-
-`Classic Chrome Street` is Classic Chrome pushed for the street: harder
-contrast, cooler shadows and visible grain, where `Classic Chrome` is the
-camera's own restrained rendering.
-
-`Velvia 50` is the slide film, not the camera setting: it adds the film's
-well-known magenta cast in the shadows, deeper blacks and a fine slide grain.
+Expose first, then apply — like film, each has its own fixed contrast.
 
 <!-- gallery:start -->
 

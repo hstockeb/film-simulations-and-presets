@@ -1,30 +1,22 @@
 # Kodak
 
-14 emulsions — 12 in colour, 2 in black & white. Auto Tone is off throughout.
+14 looks · 12 colour, 2 black & white · film simulation
 
 <p align="center"><img src="../../samples/gifs/kodak.gif" width="480" alt="the same frame through every Kodak look"></p> <!-- family-loop -->
 
-| | Stocks |
+| | |
 |---|---|
 | Negative | Portra 160 · Portra 400 · Portra 800 · Gold 200 · UltraMax 400 · ColorPlus 200 · Ektar 100 |
 | Slide | Ektachrome E100 · Kodachrome 64 |
-| Cine | Vision3 250D · Vision3 500T · CineStill 800T |
-| Monochrome | Tri-X 400 · T-Max 400 |
+| Cinema | Vision3 250D · Vision3 500T · CineStill 800T |
+| Black & white | Tri-X 400 · T-Max 400 |
 
-Each recipe was cross-referenced against 4–8 independent sources — datasheets,
-photographer blogs, film labs and technical editing guides — before it was
-locked. Warmth and toning are built with colour science (Calibration + Colour
-Grading + HSL), not the temperature slider, so the presets are safe for photos
-shot at any time of day.
+Portra for skin, Ektar and Kodachrome for colour that sings, Gold and UltraMax
+for warm everyday snapshots, the cinema stocks for a movie feel. Each was
+checked against Kodak's datasheets and photographers' scans. The warmth works
+at any time of day and never depends on your white balance.
 
-**Auto Tone is off in every simulation.** A film has a fixed response — Portra
-is always soft with open shadows, Tri-X always punchy — and that response lives
-in each preset's Basic sliders, which Auto would replace photo by photo. Set
-your exposure, then apply; the film does the rest.
-
-`CineStill 800T` is filed here because it *is* Vision3 500T, respooled with the
-remjet layer removed — which is exactly where its halation around highlights
-comes from, and why it belongs beside the two Vision3 presets.
+Expose first, then apply — like film, each has its own fixed contrast.
 
 <!-- gallery:start -->
 

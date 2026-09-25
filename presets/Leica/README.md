@@ -1,24 +1,19 @@
 # Leica
 
-17 looks — 11 in colour, 6 in black & white: every Look Leica makes. Auto Tone is off throughout.
+17 looks · 11 colour, 6 black & white · camera simulation
 
 <p align="center"><img src="../../samples/gifs/leica.gif" width="480" alt="the same frame through every Leica look"></p> <!-- family-loop -->
 
-| | Looks |
+| | |
 |---|---|
 | Colour | Standard · Vivid · Natural · Chrome · Classic · Contemporary · Teal · Brass · Eternal · Silver · Bleach |
-| Monochrome | Monochrom Natural · Monochrom High Contrast · Selenium · Sepia · Blue · Greg Williams |
+| Black & white | Monochrom Natural · Monochrom High Contrast · Selenium · Sepia · Blue · Greg Williams |
 
-These reproduce the *aesthetic direction* of Leica's in-camera **Leica Looks**.
-Leica Looks are baked into the JPEG, never the DNG, and Leica publishes no
-values — each is a reasoned approximation of Leica's published descriptions,
-cross-referenced against 5–8 independent sources per Look.
+Every one of Leica's in-camera *Looks*, for any camera. Leica doesn't publish
+how they're made, so each is built from Leica's own description of the look and
+checked against real side-by-sides.
 
-**Auto Tone is off in every simulation.** A film has a fixed response — Portra
-is always soft with open shadows, Tri-X always punchy — and that response lives
-in each preset's Basic sliders, which Auto would replace photo by photo. Set
-your exposure, then apply; the film does the rest. `Contemporary`'s bright shadows and `Silver`'s lifted,
-steely base depend on it most.
+Expose first, then apply — like film, each has its own fixed contrast.
 
 <!-- gallery:start -->
 
