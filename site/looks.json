@@ -27,13 +27,6 @@
      "preset": "presets/Fuji/Color/Fuji%20-%20400H.xmp"
     },
     {
-     "name": "Fuji Classic Chrome (2026)",
-     "mono": false,
-     "image": "samples/fuji/Fuji%20-%20Classic_Chrome_2026.jpg",
-     "thumb": "samples/thumbs/fuji/Fuji%20-%20Classic_Chrome_2026.jpg",
-     "preset": "presets/Fuji/Color/Fuji%20-%20Classic_Chrome_2026.xmp"
-    },
-    {
      "name": "Fujifilm Acros",
      "mono": true,
      "image": "samples/fuji/Fujifilm%20-%20Acros.jpg",
@@ -62,6 +55,13 @@
      "preset": "presets/Fuji/Color/Fujifilm%20-%20Classic_Chrome.xmp"
     },
     {
+     "name": "Fujifilm Classic Chrome Street",
+     "mono": false,
+     "image": "samples/fuji/Fujifilm%20-%20Classic_Chrome_Street.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Classic_Chrome_Street.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Classic_Chrome_Street.xmp"
+    },
+    {
      "name": "Fujifilm Classic Neg",
      "mono": false,
      "image": "samples/fuji/Fujifilm%20-%20Classic_Neg.jpg",
@@ -69,11 +69,11 @@
      "preset": "presets/Fuji/Color/Fujifilm%20-%20Classic_Neg.xmp"
     },
     {
-     "name": "Fujifilm Eterna (no auto)",
+     "name": "Fujifilm Eterna",
      "mono": false,
-     "image": "samples/fuji/Fujifilm%20-%20Eterna%20%28no%20auto%29.jpg",
-     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Eterna%20%28no%20auto%29.jpg",
-     "preset": "presets/Fuji/Color/Fujifilm%20-%20Eterna%20%28no%20auto%29.xmp"
+     "image": "samples/fuji/Fujifilm%20-%20Eterna.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Eterna.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Eterna.xmp"
     },
     {
      "name": "Fujifilm Monochrome",
@@ -83,11 +83,11 @@
      "preset": "presets/Fuji/Monochrome/Fujifilm%20-%20Monochrome.xmp"
     },
     {
-     "name": "Fujifilm Nostalgic Neg (no auto)",
+     "name": "Fujifilm Nostalgic Neg",
      "mono": false,
-     "image": "samples/fuji/Fujifilm%20-%20Nostalgic_Neg%20%28no%20auto%29.jpg",
-     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Nostalgic_Neg%20%28no%20auto%29.jpg",
-     "preset": "presets/Fuji/Color/Fujifilm%20-%20Nostalgic_Neg%20%28no%20auto%29.xmp"
+     "image": "samples/fuji/Fujifilm%20-%20Nostalgic_Neg.jpg",
+     "thumb": "samples/thumbs/fuji/Fujifilm%20-%20Nostalgic_Neg.jpg",
+     "preset": "presets/Fuji/Color/Fujifilm%20-%20Nostalgic_Neg.xmp"
     },
     {
      "name": "Fujifilm PRO Neg Hi",
@@ -144,6 +144,21 @@
      "image": "samples/fuji/Fuji%20-%20Velvia_50.jpg",
      "thumb": "samples/thumbs/fuji/Fuji%20-%20Velvia_50.jpg",
      "preset": "presets/Fuji/Color/Fuji%20-%20Velvia_50.xmp"
+    }
+   ]
+  },
+  {
+   "name": "Ilford",
+   "blurb": "British black & white stocks",
+   "slug": "ilford",
+   "kind": "sims",
+   "looks": [
+    {
+     "name": "Ilford HP5 Plus",
+     "mono": true,
+     "image": "samples/ilford/Ilford%20-%20HP5_Plus.jpg",
+     "thumb": "samples/thumbs/ilford/Ilford%20-%20HP5_Plus.jpg",
+     "preset": "presets/Ilford/Monochrome/Ilford%20-%20HP5_Plus.xmp"
     }
    ]
   },
@@ -323,13 +338,6 @@
      "preset": "presets/Landscape/Color/Landscape%20-%20High_Desert.xmp"
     },
     {
-     "name": "Ilford HP5 Plus",
-     "mono": true,
-     "image": "samples/landscape/Landscape%20-%20Ilford_HP5.jpg",
-     "thumb": "samples/thumbs/landscape/Landscape%20-%20Ilford_HP5.jpg",
-     "preset": "presets/Landscape/Monochrome/Landscape%20-%20Ilford_HP5.xmp"
-    },
-    {
      "name": "Orange Filter",
      "mono": true,
      "image": "samples/landscape/Landscape%20-%20Orange_Filter.jpg",
@@ -441,13 +449,6 @@
      "image": "samples/leica/Leica-style%20-%20Greg%20Williams.jpg",
      "thumb": "samples/thumbs/leica/Leica-style%20-%20Greg%20Williams.jpg",
      "preset": "presets/Leica/Monochrome/Leica-style%20-%20Greg%20Williams.xmp"
-    },
-    {
-     "name": "Leica Look",
-     "mono": false,
-     "image": "samples/leica/Leica-style%20-%20Look.jpg",
-     "thumb": "samples/thumbs/leica/Leica-style%20-%20Look.jpg",
-     "preset": "presets/Leica/Color/Leica-style%20-%20Look.xmp"
     },
     {
      "name": "Leica Monochrom High Contrast",
@@ -589,6 +590,13 @@
      "image": "samples/modern/Modern%20-%20Warm_Earthy_Boho%20%28no%20auto%29.jpg",
      "thumb": "samples/thumbs/modern/Modern%20-%20Warm_Earthy_Boho%20%28no%20auto%29.jpg",
      "preset": "presets/Modern%20Trends/Color/Modern%20-%20Warm_Earthy_Boho%20%28no%20auto%29.xmp"
+    },
+    {
+     "name": "Warm Glow",
+     "mono": false,
+     "image": "samples/modern/Modern%20-%20Warm_Glow.jpg",
+     "thumb": "samples/thumbs/modern/Modern%20-%20Warm_Glow.jpg",
+     "preset": "presets/Modern%20Trends/Color/Modern%20-%20Warm_Glow.xmp"
     }
    ]
   },

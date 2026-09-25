@@ -2,6 +2,8 @@
 
 1 look, in black & white.
 
+<p align="center"><img src="../../samples/gifs/ilford.gif" width="480" alt="the same frame through every Ilford look"></p> <!-- family-loop -->
+
 `Ilford HP5 Plus` — the British 400-speed stock. Grainier than Tri-X, flatter in
 the toe, and forgiving when pushed: the one to reach for when a frame has weather
 in it rather than a clean sky. The Black & White Mix lifts reds, oranges and
